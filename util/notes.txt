@@ -1,0 +1,73 @@
+FullStackReact
+
+https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/t/lecture/7605034?start=0
+
+
+USR rocketCube
+Pass: RocketCube_100
+
+	mongodb://rocketCube:RocketCube_100@ds137283.mlab.com:37283/emaily-prod
+
+00. Doc
+	https://docs.google.com/document/d/1ZVLphlOH0PEOUCd5v2UJVHiRSKuYjJI-AS4xQWYXmq8/edit#heading=h.kk1966kbedef
+
+	Heroku
+	https://agile-island-73510.herokuapp.com/ | https://git.heroku.com/agile-island-73510.git
+
+	heroku logs
+
+GIT
+	git add .
+	git commit -m "changed for test"
+	git push heroku master
+
+	*** INIT ALL
+	npm run dev
+
+	//ATOM
+	apm install prettier-atom
+
+*********** INIT GENERAL
+	> npm install --save passport
+	> npm install --save passport-google-oauth20
+
+	> npm install --save nodemon
+	> npm run dev
+	> npm install --save mongoose
+	> npm install --save cookie-session
+
+  //NO
+	> npm install -g create-react-app
+	> create-react-app client
+
+  //SI
+	> npm install --save concurrently
+	>client> npm install http-proxy-middleware --save
+	>client> npm i -g --save ajv@6
+	//PASE A PROD
+	>client> npm run build //Genera el paquete para prod
+	>client> npm install --save redux react-redux react-router-dom
+	//PUDe SERVIR https://stackoverflow.com/questions/42308879/npm-err-code-elifecycle
+
+	//https://github.com/zalmoxisus/redux-devtools-extension
+	>client> npm install --save-dev redux-devtools-extension
+
+	>client> $ npm install --save materialize-css@next
+	>client> npm install --save axios redux-thunk
+	>client> npm install --save react-stripe-checkout
+
+	//NOTE THIS IS ON THE SERVER NOT client
+	>npm install --save stripe
+
+	//OPTIONAL AND FOR SECURITY
+	>npm uninstall -S flatmap-stream
+	> npm install -S event-stream@3.3.4
+
+	>npm install --save body-parser
+	>npm install --save @sendgrid/client
+	>npm install --save @sendgrid/mail
+
+	>client>npm install --save redux-form
+
+	//to deploy
+	>npm run build
