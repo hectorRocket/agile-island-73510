@@ -35,7 +35,7 @@ require("./routes/billingRoutes")(app);
 require("./routes/surveyRoutes")(app);
 require("./routes/accountRoutes")(app);
 
-console.log("==== EXITO MOVE TO github");
+console.log("==== EXITO MOVE TO github + heroku");
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
